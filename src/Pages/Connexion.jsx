@@ -32,7 +32,7 @@ export default function Login() {
       login(data.user, data.token);
       
       // go to le tableau
-      navigate("/dashboard");  // Utilisation de navigate() pour rediriger
+      navigate("/dashboard");  
     } catch (err) {
       setError(err.message);
     } finally {
